@@ -15,8 +15,9 @@ The objective functions are defined in the `ObjectiveFunctions` class. Each func
 
 ### Package Install
 
-'''python
+```python
 pip install -r requirements.txt
+```
 
 ### Initialization
 
@@ -32,3 +33,4 @@ if __name__ == '__main__':
     optimizer = LemurOptimization(function_name)
     best_solution, final_results = optimizer.run_optimization()
     logger.info(f"best_solution = {best_solution}, final_results = {final_results}")
+```
