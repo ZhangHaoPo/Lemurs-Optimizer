@@ -13,6 +13,11 @@ The objective functions are defined in the `ObjectiveFunctions` class. Each func
 
 ## Usage
 
+### Package Install
+
+'''python
+pip install -r requirements.txt
+
 ### Initialization
 
 You need to specify the name of the objective function you want to optimize. The available functions are defined in the `ObjectiveFunctions` class.
