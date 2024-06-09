@@ -15,7 +15,7 @@ The objective functions are defined in the `ObjectiveFunctions` class. Each func
 
 ### Package Install
 
-```python
+```script
 pip install -r requirements.txt
 ```
 
